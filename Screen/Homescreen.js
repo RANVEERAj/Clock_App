@@ -21,7 +21,7 @@ export default class Homescreen extends Component {
     return (
       <View style={styles.container}>
        <Text style={styles.timeText}>{this.state.time}</Text>
-       <Text style={styles.dateText}>{this.state.date}</Text>
+       <Text style={styles.dateText}>{ this.state.date}</Text>
       </View>
     );
   }
